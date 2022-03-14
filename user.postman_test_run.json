@@ -1,0 +1,202 @@
+{
+	"id": "85882507-db39-49cc-8717-5d5f0051ad8d",
+	"name": "user",
+	"timestamp": "2022-03-14T03:46:09.907Z",
+	"collection_id": "19955297-dba3ed0b-4871-428a-a326-a29b91ac88de",
+	"folder_id": 0,
+	"environment_id": "19955297-72653c14-7a93-43f3-9e09-c5ded6c35a6f",
+	"totalPass": 15,
+	"totalFail": 5,
+	"results": [
+		{
+			"id": "25b8557c-657f-4942-83af-c0695f2acaaa",
+			"name": "Registration",
+			"time": 2838,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 2
+				}
+			},
+			"times": [
+				3771,
+				3240,
+				2819,
+				3267,
+				2838
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "3047afeb-efe8-45d8-8c29-ff44f6b9558a",
+			"name": "login",
+			"time": 660,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 1
+				}
+			},
+			"times": [
+				2842,
+				2860,
+				2854,
+				2995,
+				660
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "534b9670-fbf1-4d6e-9999-943a1f3dc5bd",
+			"name": "get all users",
+			"time": 310,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 1
+				}
+			},
+			"times": [
+				1483,
+				1485,
+				1490,
+				1493,
+				310
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "64b5fdfb-d89e-4e5f-8807-3152cce422be",
+			"name": "delete user by id",
+			"time": 349,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 1
+				}
+			},
+			"times": [
+				658,
+				666,
+				647,
+				658,
+				349
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": false
+				}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 37385,
+	"collection": {
+		"requests": [
+			{
+				"id": "25b8557c-657f-4942-83af-c0695f2acaaa",
+				"method": "POST"
+			},
+			{
+				"id": "3047afeb-efe8-45d8-8c29-ff44f6b9558a",
+				"method": "POST"
+			},
+			{
+				"id": "534b9670-fbf1-4d6e-9999-943a1f3dc5bd",
+				"method": "GET"
+			},
+			{
+				"id": "64b5fdfb-d89e-4e5f-8807-3152cce422be",
+				"method": "DELETE"
+			}
+		]
+	}
+}
